@@ -54,7 +54,8 @@ encodedBytes = base64.b64encode(d.encode("utf-8"))
 ngay=int(strftime('%d'))
 key1=str(ngay*1246881818+2888181472) 
 key = 'HIEU_TOOL/'+key1
-long_url = (f"https://keyvip24h.net/giaodien/key.php?key={key}")
+long_url = (f"https://toolsiuvip.tk/api/keyfree.php?key={key}")
+print(long_url)
 api_token = '3cb519b30f0bf1cc2a37e10fdf9545c0b56d6465'
 url = requests.get(
     f'https://link1s.com/api?api={api_token}&url={long_url}').json()
