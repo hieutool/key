@@ -55,9 +55,9 @@ ngay=int(strftime('%d'))
 key1=str(ngay*1246881818+2888181472) 
 key = 'HIEU_TOOL/'+key1
 long_url = (f"https://hieutoolkey.000webhostapp.com/?key={key}")
-api_token = '3cb519b30f0bf1cc2a37e10fdf9545c0b56d6465'
+api_token = '04ea7a03-e2e9-42ee-a974-100183b869b7'
 url = requests.get(
-    f'https://link1s.com/api?api={api_token}&url={long_url}').json()
+    f'https://web1s.com/api?token={api_token}&url={long_url}').json()
 status = url['status']
 link = url['shortenedUrl']
 # lấy key
